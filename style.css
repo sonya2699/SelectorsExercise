@@ -1,0 +1,56 @@
+/* Everthing is to be completed in the CSS file. Do not change or add to the HTML */
+
+body {
+    color: #CED4D8;
+}
+h1 {
+    color: #AC6AC7;
+}
+h2 {
+  color: rgb(255,165,0);  
+}
+li {
+    color: blue;
+}
+p {
+    background-color: gold;
+}
+input {
+    border: 5px dotted pink;
+}
+p.first {
+    background-color: #fff;
+}
+#important {
+    border: 3px #0096ff dashed
+}
+div > p {
+   font-size: 30px
+}
+input:focus  {
+   background: #833557;
+}
+div:nth-of-type(3) p  {
+    background-color: hotpink;
+}
+div:nth-of-type(3) p:nth-of-type(2) {
+    border: 20px solid rgb(255,255,255)
+} 
+em {
+    color: seashell; font-size: 25px 
+}
+:checked {
+    margin-left: 40px;
+}
+label {
+    text-transform: lowercase;
+}
+#important::first-letter {
+    font-size: 90px; color: lime;
+}
+h1:hover {
+    color: navy;
+}
+a {
+   color: silver; 
+}
